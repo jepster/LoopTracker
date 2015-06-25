@@ -1,0 +1,21 @@
+{
+  "name": "jepster/loop-tracker",
+  "description": "LoopTracker outputs the status of a loop into the standard out via the 'echo'-function.",
+  "keywords": [
+    "tracking",
+    "loop-tracker"
+  ],
+  "homepage": "https://github.com/jepster/loop-tracker",
+  "license": "LGPL",
+  "authors": [
+    {
+      "name": "Peter Majmesku",
+      "email": "p.majmesku@gmail.com",
+      "homepage": "https://de.linkedin.com/pub/peter-majmesku/52/ba5/86",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php" : ">=5.3.0"
+  }
+}
