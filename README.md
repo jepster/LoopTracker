@@ -1,7 +1,9 @@
 #LoopTracker
 
 A simple PHP class to output the status of a loop into the standard out via the "echo"-function.
-It allows you to track the progress via a very handy call:
+The functionality is tested by PHPUnit. 
+
+LoopTracker allows you to track the progress via a very handy call:
 
     LoopTracker::track('My loop title', count($total_items_to_iterate));
 
