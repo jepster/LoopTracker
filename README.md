@@ -49,8 +49,6 @@ LoopTracker can be installed with [Composer](https://getcomposer.org/doc/00-intr
 
 ## With Composer
 
-### First option
-
 If you're already using Composer, just add `jepster/loop-tracker` to your `composer.json` file.
 LoopTracker works with Composer's autoloader out of the bat.
 ```js
@@ -60,14 +58,6 @@ LoopTracker works with Composer's autoloader out of the bat.
 	}
 }
 ```
-
-### Second option
-
-You can also install LoopTracker by executing
-
-    composer require jepster/loop-tracker
-    
-in your terminal.
 
 ## Manually
 
