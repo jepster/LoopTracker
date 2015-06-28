@@ -1,4 +1,5 @@
-#LoopTracker
+LoopTracker
+===========
 
 A simple PHP class to output the status of a loop into the standard out via the "echo"-function.
 The functionality is tested by PHPUnit. 
@@ -41,3 +42,45 @@ Afterwards you get informative messages into your console output as such:
     Finish at: 16:45:15 - 28.06.15
     Start was: 16:45:15 - 28.06.15
     ----------------------
+    
+Getting Started
+------------------
+LoopTracker can be installed with [Composer](https://getcomposer.org/doc/00-intro.md#introduction) or downloaded manually.
+
+## With Composer
+
+### First option
+
+If you're already using Composer, just add `jepster/loop-tracker` to your `composer.json` file.
+LoopTracker works with Composer's autoloader out of the bat.
+```js
+{
+	"require": {
+		"jepster/loop-tracker": "dev-master"
+	}
+}
+```
+
+### Second option
+
+You can also install LoopTracker by executing
+
+    composer require jepster/loop-tracker
+    
+in your terminal.
+
+## Manually
+
+If you aren't using Composer, you just need to include `lib/LoopTracker.php` in your script.
+
+```php
+require_once("path/to/LoopTracker.php");
+```
+   
+Testing via PHPUnit
+-------------------
+    
+You need PHPUnit installed to run the tests. Configuration is defined in phpunit.xml.dist. 
+Running the tests is easy:
+
+    phpunit
