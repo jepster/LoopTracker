@@ -1,11 +1,11 @@
 {
-  "name": "jepster/loop-tracker",
-  "description": "LoopTracker outputs the status of a loop into the standard out via the 'echo'-function.",
+  "name": "jepster/LoopTracker",
+  "description": "A simple PHP class for tracking the status of a loop.",
   "keywords": [
     "tracking",
     "loop-tracker"
   ],
-  "homepage": "https://github.com/jepster/loop-tracker",
+  "homepage": "https://github.com/jepster/LoopTracker",
   "license": "LGPL",
   "authors": [
     {
