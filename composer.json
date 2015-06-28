@@ -1,5 +1,5 @@
 {
-  "name": "jepster/LoopTracker",
+  "name": "jepster/loop-tracker",
   "description": "A simple PHP class for tracking the status of a loop.",
   "keywords": [
     "tracking",
